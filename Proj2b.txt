@@ -1,0 +1,9 @@
+#Author: Ashley Johnson
+#Date: 10/2/2020
+#Description: Asks user to enter a celcius temperature and then converts celsius to farenheit.
+
+print("Please enter a Celcius temperature.")
+celcius= float(input())
+farenheit= (9/5)*celcius +32
+print( "The equivalent Farenheit temperature is: ")
+print(farenheit)
